@@ -35,3 +35,7 @@ select {
   font-weight: bold;
   padding: 5px 20px;
 }
+
+.botao {
+  margin-top: 40px;
+}

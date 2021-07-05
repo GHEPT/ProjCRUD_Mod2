@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD parte 2</title>
+    <title>Bluememers | Criar Memento</title>
     <link rel="stylesheet" href="../static/style.css">
     <link rel="stylesheet" href="../static/pages/create.css">
     <!-- <link rel="stylesheet" href="../static/pages/read_single.css"> -->
@@ -16,7 +16,7 @@
     {% include 'header.html' %}
 
   <div class="bloco">
-      <h2>Inserir Filmes</h2>
+      <h2>Insira aqui o seu meme</h2>
   </div>
 
     {% if id_atribuido %}
@@ -25,7 +25,7 @@
 
         <p>Filme inserido com sucesso!</br>
             <br>
-           O ID atribuido foi <span class="id_atribuido">{{ id_atribuido}}</span>.<br>
+           O ID atribuido foi <span class="id_atribuido">{{id_atribuido}}</span>.<br>
            <a href="/read/{{ id_atribuido}}" class ="botao">Visualizar filme</a>
         </p>
 
@@ -36,23 +36,34 @@
     <div class="bloco">
         <form class="form" method="POST">
             <div class="bloco form_input">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+                <label for="modulo">Módulo:</label>
+                <input type="text" id="modulo" name="modulo" placeholder="Módulo 2 - Banco de Dados" required>
             </div>
-                  
             <div class="bloco form_input">
-                <label for="imagem_url">URL da Imagem:</label>
-                <input type="text" id="imagem_url" name="imagem_url" required>
+                <label for="aula">Aula:</label>
+                <input type="text" id="aula" name="aula" placeholder="Aula 10" required>
             </div>
-
             <div class="bloco form_input">
-
+                <label for="conteudo">Conteúdo da Aula:</label>
+                <input type="text" id="conteudo" name="conteudo" placeholder="Heroku / Cloud" required>
+            </div>
+            <div class="bloco form_input">
+                <label for="memento">Texto:</label>
+                <input type="text" id="memento" name="memento" placeholder="Professor prorrogou o prazo de entrega do exercício" required>
+            </div>
+            <div class="bloco form_input">
+                <label for="imagem_url2">URL 1:</label>
+                <input type="text" id="imagem_url1" name="imagem_url1" placeholder="https://media.giphy.com/media/1qfb3aFqldWklPQwS3/giphy.gif" required>
+            </div>
+            <div class="bloco form_input">
+                <label for="imagem_url2">URL 2:</label>
+                <input type="text" id="imagem_url2" name="imagem_url2">
+            </div>
+            <div class="bloco form_input">
                 <input type="submit" class="botao" value="Enviar">
-
             </div>
         </form>
     </div>
-
     {% endif %}
 </body>
 </html>
