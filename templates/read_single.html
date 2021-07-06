@@ -32,11 +32,11 @@
         <!-- Para CADA filme dentro da minha lista de filmes que estão vindo do app.py -->
         {% for meme in memes %}
           <tr>
-            <td>[ {{meme.id}} ]</td>  
+            <td><span class="tag">[ {{meme.id}} ]</span></td>  
             <td align="left" id="texto"><span>{{meme.texto}}</span></td>
             <td align="left">
-              <img src="{{meme.url1}}" id="url1">
-              <img src="{{meme.url2}}" id="url2">
+              <img src="{{meme.url1}}" class="url1">
+              <img src="{{meme.url2}}" class="url2">
             </td>
             <td id="detalhes" align="center">{{meme.modulo}}<br>{{meme.aula}}<br>{{meme.conteudo}}</td>
                
@@ -48,17 +48,22 @@
 
 </body>
   <script>
-    var url2 = document.getElementById("url2").src;
-    if (url2 == "http://127.0.0.1:5000/None"){
-      document.getElementById("url2").hidden=true;  
-    } 
-    var texto = document.getElementById("texto");
-    texto.style.color = "blue";
-    texto.style.fontSize = "30px";
-    texto.style.fontFamily = "Candara";
+    const url2 = Element.getAttribute("src");
+    console.log(url2)
+    
+    
+    
+    // if (url2 == "http://127.0.0.1:5000/None"){
+    //   document.getElementById("url2").hidden=true; 
+    // }
+      
+    // var texto = document.getElementById("texto");
+    // texto.style.color = "blue";
+    // texto.style.fontSize = "30px";
+    // texto.style.fontFamily = "Candara";
 
-    var detalhes = document.getElementById("detalhes");
-    detalhes.style.fontSize = "15px"; 
-    detalhes.style.color = "gray";
+    // var detalhes = document.getElementById("detalhes");
+    // detalhes.style.fontSize = "15px"; 
+    // detalhes.style.color = "gray";
   </script>
 </html>

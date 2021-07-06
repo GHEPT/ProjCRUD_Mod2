@@ -99,7 +99,7 @@ def update(meme_id):
 
   if request.method =='POST':
     form=request.form
-    new_data= Memes(form['modulo'], form['aula'], form['conteudo'], form['texto'], form['url1'], form['url2']) 
+    new_data = Memes(form['modulo'], form['aula'], form['conteudo'], form['texto'], form['url1'], form['url2']) 
     meme.update(new_data)
     sucesso = True
   return render_template('update.html', meme=meme,sucesso=sucesso)

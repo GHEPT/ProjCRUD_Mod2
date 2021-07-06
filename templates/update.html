@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../static/pages/create.css" />
   </head>
   <body>
-    {% include 'header.html' %} {% if sucesso%}
+    {% include 'header.html' %} {% if sucesso %}
 
     <div class="bloco sucesso">
       <p>Registro editado com sucesso!</p>
@@ -19,26 +19,35 @@
     {% endif %}
 
     <div class="bloco">
-      <h2>Editar Registo</h2>
+      <h2>Editar Meme</h2>
     </div>
 
     <div class="bloco">
       <form class="form" method="POST">
         <div class="bloco form_input">
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" value="{{filme.nome}}" />
-        </div>
-
-        <div class="bloco form_input">
-          <label for="imagem_url">URL da Imagem:</label>
-          <input
-            type="text"
-            id="imagem_url"
-            name="imagem_url"
-            value="{{filme.imagem_url}}"
-          />
-        </div>
-
+          <label for="modulo">Módulo:</label>
+          <input type="text" id="modulo" name="modulo" value="{{meme.modulo}}"/>
+      </div>
+      <div class="bloco form_input">
+          <label for="aula">Aula:</label>
+          <input type="text" id="aula" name="aula" value="{{meme.aula}}"/>
+      </div>
+      <div class="bloco form_input">
+          <label for="conteudo">Conteúdo da Aula:</label>
+          <input type="text" id="conteudo" name="conteudo" value="{{meme.conteudo}}"/>
+      </div>
+      <div class="bloco form_input">
+          <label for="texto">Texto:</label>
+          <input type="text" id="texto" name="texto" value="{{meme.texto}}"/>
+      </div>
+      <div class="bloco form_input">
+          <label for="url1">URL 1:</label>
+          <input type="text" id="url1" name="url1" value="{{meme.url1}}"/>
+      </div>
+      <div class="bloco form_input">
+          <label for="url2">URL 2:</label>
+          <input type="text" id="url2" name="url2" value="{{meme.url2}}"/>
+      </div>
         <div class="bloco form_input">
           <input type="submit" class="botao" value="Enviar" />
         </div>
