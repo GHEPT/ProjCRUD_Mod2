@@ -32,14 +32,20 @@
         <!-- Para CADA filme dentro da minha lista de filmes que estão vindo do app.py -->
         {% for meme in memes %}
           <tr>
-            <td><span class="tag">[ {{meme.id}} ]</span></td>  
-            <td align="left" id="texto"><span>{{meme.texto}}</span></td>
-            <td align="left">
-              <img src="{{meme.url1}}" class="url1">
-              <img src="{{meme.url2}}" class="url2">
+            <td><span class="tag">| {{meme.id}} |</span></td>  
+            <td align="left" class="texto"><span>{{meme.texto}}</span></td>
+            <td align="center">
+              <a href="/read/{{meme.id}}"><img src="{{meme.url1}}" class="url1"></a>
+         
+              {% if meme.url2 %}
+                <a href="/read/{{meme.id}}"><img src="{{meme.url2}}" class="url2"></a>
+              {% endif %}
             </td>
-            <td id="detalhes" align="center">{{meme.modulo}}<br>{{meme.aula}}<br>{{meme.conteudo}}</td>
-               
+            <td class="detalhes" align="center">{{meme.modulo}}<br>{{meme.aula}}<br>{{meme.conteudo}}</td>
+            <td>
+              <a href="/update/{{meme.id}}" class="botao_edt">Editar</a>
+              <a href="/delete/{{meme.id}}" class="botao_edt">Deletar</a>
+            </td>
           </tr>
         {% endfor %}
       </tbody>
@@ -48,22 +54,27 @@
 
 </body>
   <script>
-    const url2 = Element.getAttribute("src");
+    const url2 = document.getElementsByClassName("url2");
     console.log(url2)
-    
-    
-    
-    // if (url2 == "http://127.0.0.1:5000/None"){
-    //   document.getElementById("url2").hidden=true; 
-    // }
+    if (url2 == "http://127.0.0.1:5000/None"){
+      document.getElementById("url2").hidden=true; 
+    }
       
-    // var texto = document.getElementById("texto");
-    // texto.style.color = "blue";
-    // texto.style.fontSize = "30px";
-    // texto.style.fontFamily = "Candara";
+    var textos = Array.from(document.querySelectorAll(".texto"));
+    console.log(textos)
+    for (texto of textos) {
+      texto.style.color = "black";
+      texto.style.fontSize = "20px";
+      texto.style.fontFamily = "Verdana";
+    }
+    
 
-    // var detalhes = document.getElementById("detalhes");
-    // detalhes.style.fontSize = "15px"; 
-    // detalhes.style.color = "gray";
+    var detalhes = Array.from(document.querySelectorAll(".detalhes"));
+    console.log(detalhes)
+    for (detalhe of detalhes) {
+      detalhe.style.fontSize = "15px"; 
+      detalhe.style.color = "black";
+    }
+    
   </script>
 </html>

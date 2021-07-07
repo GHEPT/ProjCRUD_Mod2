@@ -14,12 +14,10 @@
     </div>
 
     <div class="bloco">
-      <img
-        src="{{meme.url}}"
-        alt="{{meme.aula}}"
-        class="imagem"
-        width="600px"
-      />
-    </div>
+      <a href="/read"><img src="{{meme.url1}}" class="imagem" width="500px"/></a>
+      {% if meme.url2 %}
+      <a href="/read"><img src="{{meme.url2}}" class="imagem" width="500px"/></a>
+      {% endif %}
+    </div>   
   </body>
 </html>

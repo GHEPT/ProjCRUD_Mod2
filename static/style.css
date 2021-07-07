@@ -34,9 +34,7 @@ body {
     object-fit: cover;
     margin-top: 10px;
     transition: opacity 1200ms;
-    -webkit-box-shadow: 20px 30px 40px rgba(15, 65, 105, 0.575);
-		-moz-box-shadow:    20px 30px 10px rgba(24, 60, 90, 0.45);
-		box-shadow:         20px 20px 10px rgba(18, 49, 75, 0.45);	
+    box-shadow: 20px 20px 10px rgba(18, 49, 75, 0.45);	
 }
 
 #slider img.selected{
@@ -122,6 +120,25 @@ body {
     text-decoration: none;
 }
 
+.botao_edt {
+    background-color: #3359ec;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 5px;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.botao_edt:hover {
+    background-color: #ffef15;
+    color: black
+}
+
 .botao:hover {
     background-color: #c73e3e;
 }
@@ -131,7 +148,7 @@ body {
 }
 
 .form_input {
-    height: 35px;
+    height: 34px;
 }
 
 td {
@@ -140,4 +157,9 @@ td {
     word-wrap: break-word;
 }
     
+.tag {
+    background-color: #3359ec;
+    color: #FFFFFF;
+    font-weight: bold;
+}
     

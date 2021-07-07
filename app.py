@@ -104,6 +104,22 @@ def update(meme_id):
     sucesso = True
   return render_template('update.html', meme=meme,sucesso=sucesso)
 
+@bp.route('/delete/<meme_id>') # Rota de confirmação de delete. confirmar perdir para o usuário(@) se ele realmente quer deletar o filme.
+
+def delete(meme_id):
+  meme = Memes.read_all(meme_id)
+  return render_template('delete.html', meme=meme)
+
+
+@bp.route('/delete/<meme_id>/confirmed') # rota que confirma a deleção do resgistro, e mostra a mensagem de deleção concluída.
+def delete_confirmed(meme_id):
+  sucesso = None
+  meme = Memes.read_all(meme_id)
+  if meme:
+    meme.delete()
+    sucesso = True
+  return render_template('delete.html', sucesso=sucesso)
+
 
 # Pega os dados do blueprint da nossa aplicação (nome do app e as rotas) e registra dentro do app do Flask
 app.register_blueprint(bp)
