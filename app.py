@@ -1,5 +1,6 @@
 from flask import (Flask, Blueprint, render_template, request)
 from flask_sqlalchemy import SQLAlchemy
+import uuid
 
 app = Flask(__name__)
 bp = Blueprint('app', __name__)
@@ -28,6 +29,7 @@ class Memes(db.Model):
   texto = db.Column(db.String(100), nullable = False)
   url1 = db.Column(db.String(350), nullable = False)
   url2 = db.Column(db.String(350), nullable = True)
+  senha = db.Column(db.String(36), default=uuid.uuid4, nullable = False)
 
   # self = a própria tabela / a própria classe Filmes do python
   # aqui estamos declarando que um novo filme deve obedecer as especificações declaradas acima
@@ -91,7 +93,7 @@ def create():
     form=request.form
     meme = Memes(form['modulo'], form['aula'], form['conteudo'], form['texto'], form['url1'], form['url2']) 
     meme.save()
-    id_atribuido=meme.id
+    id_atribuido=meme.senha
   return render_template('create.html', id_atribuido=id_atribuido)
 
 #Rota do Update
