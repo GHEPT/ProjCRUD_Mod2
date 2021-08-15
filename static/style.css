@@ -34,6 +34,8 @@ header {
 header.header{
     /* border-bottom: solid 1px #8fff26; */
     box-shadow: 1px 1px 1px 1px #ff3cd5af;
+    position: fixed;
+    z-index: 1;
 }
 
 header img#gif{
@@ -249,6 +251,7 @@ section#new{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3vh;
 
 }
 
@@ -259,12 +262,12 @@ section#new div#card{
     border-radius: 2px;
     border: 1px solid rgb(32, 147, 255);
     box-shadow: 5px 5px 1px 0px rgb(255, 29, 217);
-    width: 300px;
+    width: 40vw;
 }
 
 section#new div.label-float{
     position: relative;
-    padding-top: 15px;
+    padding-top: 30px;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -277,29 +280,31 @@ section#new div.label-float input{
     background-color: transparent;
     outline: none;
     min-width: 180px;
-    font-size: 10px;
+    font-size: 15px;
     transition: all .3s ease-out;
     border-radius: 0;
+    padding-bottom: 3px;
 }
 
 section#new div.label-float input:focus{
-    border-bottom: 2px solid #ff4ee7;
+    border-bottom: 3px solid #ff4ee7;
+    padding-top: 3px;
 }
 
 section#new div.label-float label{
-    color: black;
+    color: rgb(15, 48, 233);
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 13px;
+    margin-top: 10px;
     transition: all .3s ease-out;
 }
 
 section#new div.label-float input:focus + label,
 section#new div.label-float input:valid + label{
-    font-size: 13px;
+    font-size: 20px;
     margin-top: 0;
-    color: coral;
+    color: rgb(255, 47, 220);
 }
 
 section#new div.justify-center{
@@ -308,12 +313,12 @@ section#new div.justify-center{
 }
 
 section#new button{
-    background-color: transparent;
+    background-color: rgb(48, 51, 252);
     border-color: rgb(112, 123, 219);
-    color: rgb(224, 64, 112);
+    color: rgb(255, 255, 255);
     padding: .6rem;
     font-size: 12pt;
-    margin-top: 2rem;
+    margin-top: 1rem;
     border-radius: 4px;
     cursor: pointer;
     outline: none;
