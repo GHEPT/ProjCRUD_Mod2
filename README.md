@@ -6,11 +6,11 @@
 
 :partying_face: ### Eu sempre soube que essa ideia seria muito bem aceita entre os colegas da classe, mas não imaginava que as outras turmas e módulos também fossem curtir tanto!
 
-Conteúdos
+:memo: Conteúdos
 =================
 <!--ts-->
    * [Sobre](#Sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Home](#Home)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
@@ -22,7 +22,12 @@ Conteúdos
    * [Tecnologias](#tecnologias)
 <!--te-->
 
-# :memo: :pencil: Sobre <a name="Sobre"></a>
+# 🎉 Sobre <a name="Sobre"></a>
+Por trás desse projeto um tanto quanto descontraído, existe um CRUD acontecendo (Create, Read, Update, Delete) com uso de ferramentas como 🐍 Python, 🐘 PostgreeSql, 🌶️ Flask, 🐻 DBeaver e 🟪 Heroku Cloud. Para usar é bem simples, veja nos próximos tópicos.  
+
+# 🤩 Home <a name="Home"></a>
+[![HomePage](https://i.imgur.com/T5uZ1qM.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
+
 
 
 Funcionalidades
