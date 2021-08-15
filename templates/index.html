@@ -6,19 +6,25 @@
   <title>Bluememers | Home</title>
   <link rel="stylesheet" href="/static/style.css">
 </head>
-  <body class="header">
-    
-    {% include 'header.html' %}
-
-    <!-- Div com os botões de nvegação -->
-    
-    <div class="container">
-      <div id="slider">
-        <img class="selected" src="/static/Slide1_Thi.png">
-        <img src="/static/Slide2_Gustavo.png">
-        <img src="/static/Slide3_Aires.png">
+  <body>
+    <header>
+      {% include 'header.html' %}
+    </header>
+    <section id="banner">
+      <div class="content">
+        <h1>Sabe aquele momento da aula que merece um...</h1>
+        <img id="meme_fundo" src="/static/Meme.png" width="100px">
+        <h2 id="meme"><spam>#MemeHilário</spam>?</h2>
+        <br>
+        <h3><spam id="clique">Esses momentos estão aqui \o/</spam></h3>
       </div>
-    </div>
+      <div id="slider">
+        <img id="slide1" class="selected" src="/static/Slide1_Thi.png">
+        <img id="slide2" src="/static/Slide2_Gustavo.png">
+        <img id="slide3" src="/static/Slide3_Aires.png">
+      </div>
+    </section>
+    {% include 'footer.html' %}
   </body>
   <script src="/static/script.js"></script>
 </html>

@@ -17,7 +17,7 @@
     <h2></h2>
   </div>
 
-  <div class="bloco">
+  <div id="meme_tabela">
     <table class="tabela">
       <!-- TH = Cabeçalho da nossa Table -->
       <!-- <tr class="tabela_header">
@@ -32,9 +32,9 @@
         <!-- Para CADA filme dentro da minha lista de filmes que estão vindo do app.py -->
         {% for meme in memes %}
           <tr>
-            <td><span class="tag">| {{meme.id}} |</span></td>  
+            <td class="tag"><span>{{meme.id}}</span></td>  
             <td align="left" class="texto"><span>{{meme.texto}}</span></td>
-            <td align="center">
+            <td align="center" class="imagem">
               <a href="/read/{{meme.id}}"><img src="{{meme.url1}}" class="url1"></a>
          
               {% if meme.url2 %}
@@ -42,7 +42,7 @@
               {% endif %}
             </td>
             <td class="detalhes" align="center">{{meme.modulo}}<br>{{meme.aula}}<br>{{meme.conteudo}}</td>
-            <td>
+            <td class="botao_read">
               <a href="/update/{{meme.id}}" class="botao_edt">Editar</a>
               <a href="/delete/{{meme.id}}" class="botao_edt">Deletar</a>
             </td>
@@ -51,7 +51,7 @@
       </tbody>
     </table>
   </div>
-
+  {% include 'footer.html' %}
 </body>
   <script>
     const url2 = document.getElementsByClassName("url2");
