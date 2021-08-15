@@ -22,7 +22,8 @@ Conteúdos
    * [Tecnologias](#tecnologias)
 <!--te-->
 
-#Sobre <a name="Sobre"></a>
+# :memo: :pencil: Sobre <a name="Sobre"></a>
+
 
 Funcionalidades
 
