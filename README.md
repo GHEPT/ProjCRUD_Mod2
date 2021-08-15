@@ -2,7 +2,7 @@
 # Bluememers
 ## Registros de momentos hilários das aulas para nos divertirmos durante o aprendizado e também para servir como ótima lembrança quando nos formarmos 
 
-![Badge](https://img.shields.io/static/v1?Style=my own&logo=appveyor)
+![Badge](https://img.shields.io/static/v1?Style=my-own&logo=appveyor)
 
 
 Eu sempre soube que essa ideia seria muito bem aceita entre os colegas da classe, mas não imaginava que as outras turmas e módulos também fossem curtir tanto!
