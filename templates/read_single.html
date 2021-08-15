@@ -6,30 +6,17 @@
   <title>Bluememers | Visualizar todos</title>
   <link rel="stylesheet" href="/static/style.css">
   <link rel="stylesheet" href="/static/pages/read_all.css">
-  <!-- <link rel="stylesheet" href="/static/read_all.css"> -->
 </head>
 <body>
-  
   {% include 'header.html' %}
-
-  <!-- Incluir a tabela com a lista de todos os filmes -->
   <div class="bloco">
     <h2></h2>
   </div>
 
   <div id="meme_tabela">
     <table class="tabela">
-      <!-- TH = Cabeçalho da nossa Table -->
-      <!-- <tr class="tabela_header">
-        <td>Quando:</td>
-        <td>Eu:</td>
-        <td align="left">Timeline</td>
-        <td>Nº</td>
-      </tr> -->
-
-      <!-- TBODY = Corpo da Tabela (dentro dela que estarão todos os dados mostrados) -->
       <tbody>
-        <!-- Para CADA filme dentro da minha lista de filmes que estão vindo do app.py -->
+        
         {% for meme in memes %}
           <tr>
             <td class="tag"><span>{{meme.id}}</span></td>  

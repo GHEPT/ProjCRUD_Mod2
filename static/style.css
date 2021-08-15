@@ -183,16 +183,16 @@ body {
 
 div #meme_tabela{
     max-width: 90vw;
-    overflow-x: auto;
+    /* overflow-x: auto; */
 }
 
 div #meme_tabela table{
     border-collapse: collapse;
     border-spacing: 0;
+
 }
 
 table.tabela{
-    margin: 0;
     max-width: 90vw;
     display: flex;
     justify-content: center;
