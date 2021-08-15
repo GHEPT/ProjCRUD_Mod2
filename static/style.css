@@ -90,7 +90,6 @@ nav ul li a:hover{
 
 section#banner{
     background-color: #8600bb;
-    margin: .7rem 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -99,6 +98,8 @@ section#banner{
     margin-bottom: 6vh;
     width: 95vw;
     box-shadow: 7px 7px 7px #00000090;
+    padding-top: 8vh;
+    margin-left: 28px;
 }
 
 section h1, h3{
@@ -165,7 +166,7 @@ body {
     position: absolute;
     width: 64vw;
     height: 80vh;
-    object-fit: cover;
+    object-fit: fill;
     margin-top: 2px;
     transition: opacity 2.5s;
     box-shadow: 10px 10px 10px rgba(10, 248, 248, 0.836);
@@ -251,7 +252,7 @@ section#new{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 3vh;
+    padding-top: 3vh; /*coloquei aqui depois de setar o fixed */
 
 }
 
