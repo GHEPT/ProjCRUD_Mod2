@@ -38,7 +38,7 @@
 # 🎉 Sobre <a name="Sobre"></a>
 *Por trás desse projeto um tanto quanto descontraído, existe um CRUD acontecendo (Create, Read, Update, Delete) com uso de ferramentas como 🐍 Python, 🐘 PostgreSql, 🌶️ Flask, 🐻 DBeaver e 🟪 Heroku Cloud. Para usar é bem simples, veja nos próximos tópicos.*
 
-####[![App.py](https://i.imgur.com/4iKJkDE.png=100)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
+[![App.py](https://i.imgur.com/4iKJkDE.png{width=40px})](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
 # 🤩 Home <a name="Home"></a>
 *Aqui na Homepage coloquei um carrossel em JS com três memes que fiz das três personalidades que mais tiveram contato com a gente nesses 2 primeiros meses de aula. Este que aparece abaixo é o Fernando Aires, que na data de hoje (15/08/2021) já não faz mais parte do time da BLUE, infelizmente. Também há um detalhe discreto na Home, que você perceberá ao passar o mouse sobre a imagem desse rostinho simpático dando risada.*
