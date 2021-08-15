@@ -6,7 +6,7 @@
 
 :partying_face: ### Eu sempre soube que essa ideia seria muito bem aceita entre os colegas da classe, mas não imaginava que as outras turmas e módulos também fossem curtir tanto!
 
-Tabela de conteúdos
+Conteúdos
 =================
 <!--ts-->
    * [Sobre](#Sobre)
@@ -20,5 +20,16 @@ Tabela de conteúdos
       * [Combo](#combo)
    * [Tests](#testes)
    * [Tecnologias](#tecnologias)
+
+#Sobre
 <!--te-->
+
+Funcionalidades
+
+- [x] Criar Meme
+- [x] Visualizar Todos
+- [x] Visualizar Cada
+- [ ] Atualizar
+- [ ] Deletar
+
 
