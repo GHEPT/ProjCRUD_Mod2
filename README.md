@@ -1,2 +1,2 @@
-# ProjCRUD_Mod2
-Projeto paralelo ao da entrega do módulo, desenvolvido inicialmente sozinho
+# BLUE[ME]MERS
+Eu sempre soube que essa ideia seria muito bem aceita entre os colegas da classe, mas não imaginava que as outras turmas e módulos também fossem curtir tanto!
