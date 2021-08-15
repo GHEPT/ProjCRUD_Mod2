@@ -32,10 +32,10 @@
 
 [![HomePage](https://i.imgur.com/T5uZ1qM.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
-# 🆕 Criar um Meme <a name="Home"></a>
+# 🆕 Criar um Meme <a name="Criar um Meme"></a>
 *Ao clicar no canto superior direito "Criar Meme", você será direcionado para esta página, que apresenta um formulário estilizado em 🎨 CSS, com labels que se deslocam dando espaço para a digitação do usuário, mudando de cores também. Bem legal, não é!?*
 
-[![HomePage](https://i.imgur.com/e3uKjLN.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
+[![Create](https://i.imgur.com/e3uKjLN.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
 
 Funcionalidades
