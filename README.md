@@ -20,9 +20,8 @@ Conteúdos
       * [Combo](#combo)
    * [Tests](#testes)
    * [Tecnologias](#tecnologias)
-
-#Sobre
 <!--te-->
+Sobre
 
 Funcionalidades
 
