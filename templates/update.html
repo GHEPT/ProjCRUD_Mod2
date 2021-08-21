@@ -4,55 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crud - Update</title>
+    <title>Bluememers - Editar</title>
     <link rel="stylesheet" href="../static/style.css" />
     <link rel="stylesheet" href="../static/pages/update.css" />
-    <link rel="stylesheet" href="../static/pages/create.css" />
+    <!-- <link rel="stylesheet" href="../static/pages/create.css" /> -->
   </head>
   <body>
-    {% include 'header.html' %} {% if sucesso %}
+    
+    {% include 'header.html' %} 
+    {% if sucesso %}
+    <section id="edited">
+      <div class="bloco sucesso">
+        <p>Meme editado com sucesso!</p>
+      </div>
+      <div class="meme_edited">
+        <img src="/static/Meme.png" id="lol">
+      </div>
+      <div class="meme_edited">
+        <a href="/read/{{meme.id}}" class="botao_edt">Visualizar</a>
+      </div>
+    </section>
 
-    <div class="bloco sucesso">
-      <p>Registro editado com sucesso!</p>
-    </div>
+    {% else %}
 
-    {% endif %}
-
-    <div class="bloco">
-      <h2>Editar Meme</h2>
-    </div>
-
-    <div class="bloco">
-      <form class="form" method="POST">
-        <div class="bloco form_input">
-          <label for="modulo">Módulo:</label>
-          <input type="text" id="modulo" name="modulo" value="{{meme.modulo}}"/>
-      </div>
-      <div class="bloco form_input">
-          <label for="aula">Aula:</label>
-          <input type="text" id="aula" name="aula" value="{{meme.aula}}"/>
-      </div>
-      <div class="bloco form_input">
-          <label for="conteudo">Conteúdo da Aula:</label>
-          <input type="text" id="conteudo" name="conteudo" value="{{meme.conteudo}}"/>
-      </div>
-      <div class="bloco form_input">
-          <label for="texto">Texto:</label>
-          <input type="text" id="texto" name="texto" value="{{meme.texto}}"/>
-      </div>
-      <div class="bloco form_input">
-          <label for="url1">URL 1:</label>
-          <input type="text" id="url1" name="url1" value="{{meme.url1}}"/>
-      </div>
-      <div class="bloco form_input">
-          <label for="url2">URL 2:</label>
-          <input type="text" id="url2" name="url2" value="{{meme.url2}}"/>
-      </div>
-        <div class="bloco form_input">
-          <input type="submit" class="botao" value="Enviar" />
+    <section id="new">
+      <div id="card">
+        <h4>Editar Meme</h4>
+          <form method="POST">
+            <div class="label-float">
+              <input type="text" id="modulo" name="modulo" value="{{meme.modulo}}"/>
+              <label for="modulo">Módulo:</label>
+            </div>
+            <div class="label-float">              
+              <input type="text" id="aula" name="aula" value="{{meme.aula}}"/>
+              <label for="aula">Aula:</label>
+            </div>
+            <div class="label-float">
+              <input type="text" id="conteudo" name="conteudo" value="{{meme.conteudo}}"/>
+              <label for="conteudo">Conteúdo da Aula:</label>
+            </div>
+            <div class="label-float">
+              <input type="text" id="texto" name="texto" value="{{meme.texto}}"/>
+              <label for="texto">Texto:</label>
+            </div>
+            <div class="label-float">
+              <input type="text" id="url1" name="url1" value="{{meme.url1}}"/>
+              <label for="url1">URL 1:</label>
+            </div>
+            <div class="label-float">
+              <input type="text" id="url2" name="url2" value="{{meme.url2}}"/>
+              <label for="url2">URL 2:</label>
+            </div>
+            <div class="justify-center">
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
         </div>
-      </form>
-    </div>
+      </section>
+    {% endif %}
     {% include 'footer.html' %}
   </body>
 </html>

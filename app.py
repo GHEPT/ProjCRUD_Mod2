@@ -49,7 +49,7 @@ class Memes(db.Model):
     #return Filmes.query.all()
 
   @staticmethod
-  def read_all(meme_id):
+  def read_all(meme_id): #Troquei meu read_single pelo read_all só nome
     # SELECT * from filmes where id = <id_de_um_filme>;
     return Memes.query.get(meme_id)
   
@@ -108,7 +108,7 @@ def update(meme_id):
     new_data = Memes(form['modulo'], form['aula'], form['conteudo'], form['texto'], form['url1'], form['url2'])
     meme.update(new_data)
     sucesso = True
-  return render_template('update.html', meme=meme,sucesso=sucesso)
+  return render_template('update.html', meme=meme, sucesso=sucesso)
 
 @bp.route('/delete/<meme_id>') # Rota de confirmação de delete. confirmar perdir para o usuário(@) se ele realmente quer deletar o filme.
 

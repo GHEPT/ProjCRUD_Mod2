@@ -11,6 +11,7 @@
 <body>
     
     {% include 'header.html' %}
+    <section id="confirm">
         <!-- HMTL de sucesso na remoção dos memes segunda rota) -->
     {% if sucesso %}
         <div class="bloco delete_sucesso">
@@ -23,12 +24,15 @@
     {% elif meme %}  
         <!-- HTML de confirmação da rota -->
         <div class="bloco"> 
-            <h2>Deletar Meme</h2>
+            <h3>Deletar Meme</h3>
         </div>
         <div class="bloco">
-            <p>Tem certeza que deseja deletar este Meme?<br><br><span class="highlight">{{meme.texto}}</span>
+            <h2>Tem certeza que deseja deletar este meme?</h2>
         </div>
         <div class="bloco">
+            <span class="highlight">{{meme.texto}}</span>
+        </div>
+        <div class="bloco delete">
             <a href="/delete/{{meme.id}}/confirmed" class="botao_edt">Quero Deletar</a>
             <a href="/read" class="botao_edt">Cancelar</a>
         </div>
@@ -45,6 +49,7 @@
         </div>
 
     {% endif %}
+    </section>
     {% include 'footer.html' %}
 </body>
 </html>

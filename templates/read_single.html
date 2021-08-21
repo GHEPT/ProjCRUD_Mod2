@@ -3,41 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bluememers | Visualizar todos</title>
+  <title>Bluememers | Todos</title>
   <link rel="stylesheet" href="/static/style.css">
   <link rel="stylesheet" href="/static/pages/read_all.css">
 </head>
 <body>
   {% include 'header.html' %}
-  <div class="bloco">
-    <h2></h2>
-  </div>
-
-  <div id="meme_tabela">
-    <table class="tabela">
-      <tbody>
-        
-        {% for meme in memes %}
-          <tr>
+  <section id="Memes">
+    <h3>Todos os Memes</h3>
+    <div class="table_viewAll">
+      <table>
+               
+        <tbody>
+          <tr class="linha_tabela">
+            {% for meme in memes %}
             <td class="tag"><span>{{meme.id}}</span></td>  
             <td align="left" class="texto"><span>{{meme.texto}}</span></td>
             <td align="center" class="imagem">
               <a href="/read/{{meme.id}}"><img src="{{meme.url1}}" class="url1"></a>
-         
+          
               {% if meme.url2 %}
                 <a href="/read/{{meme.id}}"><img src="{{meme.url2}}" class="url2"></a>
               {% endif %}
             </td>
             <td class="detalhes" align="center">{{meme.modulo}}<br>{{meme.aula}}<br>{{meme.conteudo}}</td>
-            <td class="botao_read">
-              <a href="/update/{{meme.id}}" class="botao_edt">Editar</a>
-              <a href="/delete/{{meme.id}}" class="botao_edt">Deletar</a>
-            </td>
           </tr>
         {% endfor %}
-      </tbody>
-    </table>
-  </div>
+        </tbody>
+      </table>
+    </div>
+  </section>
   {% include 'footer.html' %}
 </body>
   <script>

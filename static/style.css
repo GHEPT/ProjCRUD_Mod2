@@ -181,13 +181,9 @@ body {
     box-shadow: 10px 10px 10px rgb(255, 31, 180);
 }
 
-div #meme_tabela{
-    max-width: 90vw;
-    /* overflow-x: auto; */
-}
-
-div #meme_tabela table{
+body table{
     border-collapse: collapse;
+    width: 90%;
     border-spacing: 0;
 
 }
@@ -197,20 +193,12 @@ table.tabela{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-a.botao_edt{
-    align-items: center;
-    padding: .4rem;
-    color: blueviolet;
-    text-decoration: none;
-    transition: all .3s ease-out;
-    animation: tremer .2s;
-    animation-iteration-count: 4;
-}
-
-.botao_edt:hover{
-    color:darkred;
+footer {
+    position: relative;
+    bottom: 0;
 }
 
 footer p{
@@ -224,7 +212,7 @@ footer p{
 footer hr{
     width: 60%;
     margin: auto;
-    border: 1px solid rgb(255, 41, 237);
+    border: 0.5px solid rgb(0, 0, 0);
 }
 
 footer img{
@@ -340,9 +328,72 @@ section#new h4{
     margin-bottom: 2rem;
 }
 
-td.tag{
-    background-color: rgb(30, 14, 255);
-    color: #FFFFFF;
+/* Estilizando a tabela de visualizando dos Memes */
+
+section#Memes div.table_viewAll{
+    display: flex;
+    justify-content: center;
+}
+
+section#Memes h3{
+    padding-top: 3.4rem;
+    text-align: center;
+    color: slategray;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px red;
+    margin-bottom: 2rem;
+}
+
+section#Memes table{
+    border-collapse: separate;
+    width: 97%;
+    border-spacing: 10px;
+    
+}
+
+section#Memes table th, td{
+    padding: 1rem;
+    /* border-bottom: 1px solid #ff4ee7;
+    border-top: 1px solid #ff4ee7; */
+    /* border-right: 1px solid rgb(12, 2, 68); */
+    text-align: center;
+    border: 5px solid;
+    border-image: linear-gradient(
+        135deg, #00a2ff 0%,
+        #FF00A8 100%) 1;
+}
+
+section#Memes td.imagem{
+    width: 500px;
+    /* background-color: rgb(0, 0, 0);
+    /* border: 4px solid;
+    border-image: linear-gradient(
+        135deg, #00a2ff 0%,
+        #FF00A8 100%) 1; */
+}
+
+td.texto span{
+    color: rgb(42, 0, 228);
+    text-shadow: 0.7px 0.7px 2px rgb(255, 0, 0);
+}
+
+section#Memes img.url1, img.url2{
+    max-width: fit-content;
+}
+
+section#Memes td.botao{
+    width: 200px;
+}
+
+section#Memes table a{
+    padding: 0.2rem;
+    color:rgb(255, 8, 90);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+section#Memes table a:hover{
+    color: rgb(44, 77, 87);
 }
 
 .content{
@@ -351,4 +402,119 @@ td.tag{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+td.tag{
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFF;
+}
+
+tr.linha_tabela{
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(14, 58, 255);
+    font-size: 1rem;
+}
+
+.bloco h3{
+    padding-top: 4.5rem;
+    padding-bottom: 3.4rem;
+    text-align: center;
+    color: slategray;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px red;
+    
+}
+
+img.imagem{
+    border: 5px solid;
+    border-image: linear-gradient(
+        135deg, #00a2ff 0%,
+        #FF00A8 100%) 1;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 1rem;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+}
+
+a.botao_edt{
+    margin: 1rem;
+    text-decoration: none;
+    color: rgb(228, 0, 179);
+    text-shadow: 3px 3px 3px rgb(217, 255, 0);
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+a.botao_edt:hover{
+    margin: 1rem;
+    text-decoration: none;
+    color: rgb(0, 42, 228);
+    text-shadow: 3px 3px 3px rgb(255, 0, 128);
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+section#single{
+    min-height: 95vh;
+}
+
+section#confirm{
+    min-height: 95vh;
+}
+
+section#edited{
+    min-height: 95vh;
+}
+
+span.highlight{
+    color: rgb(42, 0, 228);
+    text-shadow: 0.7px 0.7px 2px rgb(255, 0, 0);
+    background-color: transparent;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+
+.bloco{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.delete{
+    padding: 4rem;
+}
+
+section#edited p{
+    padding-top: 3.4rem;
+    text-align: center;
+    color: slategray;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px red;
+    margin-bottom: 2rem;
+}
+
+.meme_edited{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+img#lol{
+    max-height: 65vh;
 }

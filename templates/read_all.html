@@ -3,23 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bluememers | Detalhes</title>
+    <title>Bluememers | Detalhe</title>
     <link rel="stylesheet" href="/static/style.css" />
     <link rel="stylesheet" href="/static/pages/read_single.css" />
   </head>
   <body>
     {% include 'header.html' %}
+    <section id="single">
 
-    <div class="bloco">
-      <h2>{{meme.texto}}</h2>
-    </div>
+      <div class="bloco">
+        <h3>{{meme.texto}}</h3>
+      </div>
 
-    <div class="bloco">
-      <a href="/read"><img src="{{meme.url1}}" class="imagem" width="500px"/></a>
-      {% if meme.url2 %}
-      <a href="/read"><img src="{{meme.url2}}" class="imagem" width="500px"/></a>
-      {% endif %}
-    </div>
+      <div class="imagem">
+        <a href="/read"><img src="{{meme.url1}}" class="imagem" width="500px"/></a>
+        {% if meme.url2 %}
+        <a href="/read"><img src="{{meme.url2}}" class="imagem" width="500px"/></a>
+        {% endif %}
+          
+      </div>
+      <div class="botoes">
+        <a href="/update/{{meme.id}}" class="botao_edt">Editar</a>
+        <a href="/delete/{{meme.id}}" class="botao_edt">Deletar</a>
+      </div>
+    </section>
     {% include 'footer.html' %}   
   </body>
 </html>
