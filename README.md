@@ -22,13 +22,13 @@
 :memo: Conteúdos
 =================
 <!--ts-->
-   * *️⃣ [Sobre](#Sobre)
-   * *️⃣ [Home](#Home)
-   * *️⃣ [Criar um Meme](#Create)
-   * *️⃣ [Visualizar Todos](#Read-All)
-   * *️⃣ [Visualizar Meme](#Read-Single)
-   * *️⃣ [Editar](#Update)
-   * *️⃣ [Delete](#Delete)
+   *️⃣ [Sobre](#Sobre)
+   *️⃣ [Home](#Home)
+   *️⃣ [Criar um Meme](#Create)
+   *️⃣ [Visualizar Todos](#Read-All)
+   *️⃣ [Visualizar Meme](#Read-Single)
+   *️⃣ [Editar](#Update)
+   *️⃣ [Deletar](#Delete)
 <!--te-->
 
 # 🎉 Sobre <a name="Sobre"></a>
@@ -60,10 +60,15 @@
 *Clicando novamente na imagem a página volta a visualização geral. Calma... ainda tem mais! 😃 *
 
 # ✍️ Editar <a name="Update"></a>
-*Como todo projetinho de CRUD, não pode faltar a funcionalidade da edição, ou o U do CRUD: Update. Vai que você lembrou de um gif ou imagem que tem ainda mais a ver com a sua postagem, ou simplesmente enjoou daquela primeira?... então, basta clicar no botão editar e enviar os novos dados.*
+*Como todo bom projetinho de CRUD, não pode faltar a funcionalidade da edição, ou o U do CRUD: Update. Vai que você lembrou de um gif ou imagem que tem ainda mais a ver com a sua postagem, ou simplesmente enjoou daquela primeira?... então, basta clicar no botão editar e enviar os novos dados.*
 *O formulário de edição é idêntico ao da criação com o diferencial de que ele traz pra você os dados já preenchidos daquele post. A surpresa fica na confirmação, que apresenta uma telinha descontraída...*
 
 [![Update](https://imgur.com/raSt6K8.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
+
+# 💢 Deletar <a name="Delete"></a>
+*Não que eu acredite que você vá querer deletar algum meme, maaasss... caso queria também há essa opção, claro. Clicando no link deletar a página vai direcionar para uma confirmação antes de, efetivamente, excluir a postagem. Então, para matar a curiosidade, esta é a página do delete. ⏬ *
+
+[![Delete](https://imgur.com/pDyeoaB.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
 
 
