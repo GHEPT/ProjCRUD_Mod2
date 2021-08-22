@@ -22,11 +22,13 @@
 :memo: Conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
-   * [Home](#Home)
-   * [Criar um Meme](#Create)
-   * [Visualizar Todos](#Read-All)
-   * [Visualizar Post](#Read-Single)
+   * *️⃣ [Sobre](#Sobre)
+   * *️⃣ [Home](#Home)
+   * *️⃣ [Criar um Meme](#Create)
+   * *️⃣ [Visualizar Todos](#Read-All)
+   * *️⃣ [Visualizar Meme](#Read-Single)
+   * *️⃣ [Editar](#Update)
+   * *️⃣ [Delete](#Delete)
 <!--te-->
 
 # 🎉 Sobre <a name="Sobre"></a>
@@ -45,16 +47,23 @@
 
 [![Criar um Meme](https://i.imgur.com/e3uKjLN.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
-# 👀 Visualizar todos <a name="Read-All"></a>
+# 👀 Visualizar Todos <a name="Read-All"></a>
 *Ao clicar no link no canto superior direito "Visualizar Todos", você será direcionado para a página com todos os memes já inseridos, listados do mais atual para o mais antigo. Que tal dar uma olhadinha lá e se divertir um pouco com o dia a dia dos alunos da BLUE!? Haha...*
 
 [![ViewAll](https://imgur.com/LD5u7Jc.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
-# ▶️ Visualizar Post <a name="Read-Single"></a>
+# ▶️ Visualizar Meme <a name="Read-Single"></a>
 *Para uma visualização singular, post por post, basta clicar na imagem que deseja.*
 
 [![ViewSingle](https://imgur.com/lq47zse.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
+*Clicando novamente na imagem a página volta a visualização geral. Calma... ainda tem mais! 😃 *
+
+# ✍️ Editar <a name="Update"></a>
+*Como todo projetinho de CRUD, não pode faltar a funcionalidade da edição, ou o U do CRUD: Update. Vai que você lembrou de um gif ou imagem que tem ainda mais a ver com a sua postagem, ou simplesmente enjoou daquela primeira?... então, basta clicar no botão editar e enviar os novos dados.*
+*O formulário de edição é idêntico ao da criação com o diferencial de que ele traz pra você os dados já preenchidos daquele post. A surpresa fica na confirmação, que apresenta uma telinha descontraída...*
+
+[![Update](https://imgur.com/raSt6K8.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
 
 
