@@ -54,7 +54,7 @@
 
 [![ViewSingle](https://imgur.com/lq47zse.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
-*Clicando novamente na imagem a página volta a visualização geral. Calma... ainda tem mais! 😃 *
+*Clicando novamente na imagem a página volta a visualização geral. Calma... ainda tem mais!* 😃 
 
 # ✍️ Editar <a name="Update"></a>
 *Como todo bom projetinho de CRUD, não pode faltar a funcionalidade da edição, ou o U do CRUD: Update. Vai que você lembrou de um gif ou imagem que tem ainda mais a ver com a sua postagem, ou simplesmente enjoou daquela primeira?... então, basta clicar no botão editar e enviar os novos dados.*
@@ -63,7 +63,7 @@
 [![Update](https://imgur.com/raSt6K8.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
 # 💢 Deletar <a name="Delete"></a>
-*Não que eu acredite que você vá querer deletar algum meme, maaasss... caso queria também há essa opção, claro. Clicando no link deletar a página vai direcionar para uma confirmação antes de, efetivamente, excluir a postagem. Então, para matar a curiosidade, esta é a página do delete. ⏬ *
+*Não que eu acredite que você vá querer deletar algum meme, maaasss... caso queria também há essa opção, claro. Clicando no link deletar a página vai direcionar para uma confirmação antes de, efetivamente, excluir a postagem. Então, para matar a curiosidade, esta é a página do delete.* ⏬ 
 
 [![Delete](https://imgur.com/pDyeoaB.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
