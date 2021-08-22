@@ -26,6 +26,7 @@
    * [Home](#Home)
    * [Criar um Meme](#Create)
    * [Visualizar Todos](#Read-All)
+   * [Visualizar Post](#Read-Single)
 <!--te-->
 
 # 🎉 Sobre <a name="Sobre"></a>
@@ -45,7 +46,17 @@
 [![Criar um Meme](https://i.imgur.com/e3uKjLN.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
 # 👀 Visualizar todos <a name="Read-All"></a>
-*Ao clicar no link no canto superior direito "Visualizar Todos", você será direcionado para a página com todos os memes já inseridos - que não está nada bonitinha... confesso - mas, vou estilizar em breve com um bootstrap para ficar bem top! Até a data de hoje (15/08/2021) já são 68 memes!! Wow!! Que tal dar uma olhadinha lá e se divertir um pouco com o dia a dia dos alunos da BLUE!? Haha...*
+*Ao clicar no link no canto superior direito "Visualizar Todos", você será direcionado para a página com todos os memes já inseridos, listados do mais atual para o mais antigo. Que tal dar uma olhadinha lá e se divertir um pouco com o dia a dia dos alunos da BLUE!? Haha...*
+
+[![ViewAll](https://imgur.com/cM7Ypbb)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
+
+# ▶️ Visualizar Post <a name="Read-Single"></a>
+*Para uma visualização singular, post por post, basta clicar na imagem que deseja.*
+
+[![ViewSingle](https://imgur.com/lq47zse)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
+
+
+
 
 🚧 **Desculpe... esta view está em construção...** 🚧
 
