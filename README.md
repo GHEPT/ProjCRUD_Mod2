@@ -15,9 +15,6 @@
 - [x] Visualizar Meme
 - [X] Atualizar
 - [x] Deletar
-- [ ] Página Visualizar
-- [ ] Página Deletar
-
 
 :memo: Conteúdos
 =================
@@ -70,10 +67,5 @@
 
 [![Delete](https://imgur.com/pDyeoaB.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
-
-
-🚧 **Desculpe... esta view está em construção...** 🚧
-
-
-
+**Obrigado por ter chegado até aqui**
 
