@@ -48,12 +48,12 @@
 # 👀 Visualizar todos <a name="Read-All"></a>
 *Ao clicar no link no canto superior direito "Visualizar Todos", você será direcionado para a página com todos os memes já inseridos, listados do mais atual para o mais antigo. Que tal dar uma olhadinha lá e se divertir um pouco com o dia a dia dos alunos da BLUE!? Haha...*
 
-[![ViewAll](https://imgur.com/cM7Ypbb)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
+[![ViewAll](https://imgur.com/cM7Ypbb.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
 # ▶️ Visualizar Post <a name="Read-Single"></a>
 *Para uma visualização singular, post por post, basta clicar na imagem que deseja.*
 
-[![ViewSingle](https://imgur.com/lq47zse)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
+[![ViewSingle](https://imgur.com/lq47zse.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
 
 
