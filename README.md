@@ -67,5 +67,5 @@
 
 [![Delete](https://imgur.com/pDyeoaB.png)](https://github.com/GHEPT/ProjCRUD_Mod2#readme)
 
-**Obrigado por ter chegado até aqui**
-
+**Obrigado por ter chegado até aqui!**
+**\o**
